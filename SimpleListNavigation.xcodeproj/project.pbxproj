@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4DE98F252B1415AA008B8608 /* SimpleListNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE98F242B1415AA008B8608 /* SimpleListNavigationApp.swift */; };
-		4DE98F272B1415AA008B8608 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE98F262B1415AA008B8608 /* ContentView.swift */; };
 		4DE98F292B1415AB008B8608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE98F282B1415AB008B8608 /* Assets.xcassets */; };
 		4DE98F2D2B1415AB008B8608 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE98F2C2B1415AB008B8608 /* Preview Assets.xcassets */; };
+		4DE98F342B1415C0008B8608 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE98F332B1415C0008B8608 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DE98F212B1415AA008B8608 /* SimpleListNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleListNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE98F242B1415AA008B8608 /* SimpleListNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListNavigationApp.swift; sourceTree = "<group>"; };
-		4DE98F262B1415AA008B8608 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DE98F282B1415AB008B8608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE98F2A2B1415AB008B8608 /* SimpleListNavigation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleListNavigation.entitlements; sourceTree = "<group>"; };
 		4DE98F2C2B1415AB008B8608 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DE98F332B1415C0008B8608 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		4DE98F232B1415AA008B8608 /* SimpleListNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				4DE98F332B1415C0008B8608 /* ContentView.swift */,
 				4DE98F242B1415AA008B8608 /* SimpleListNavigationApp.swift */,
-				4DE98F262B1415AA008B8608 /* ContentView.swift */,
 				4DE98F282B1415AB008B8608 /* Assets.xcassets */,
 				4DE98F2A2B1415AB008B8608 /* SimpleListNavigation.entitlements */,
 				4DE98F2B2B1415AB008B8608 /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE98F272B1415AA008B8608 /* ContentView.swift in Sources */,
+				4DE98F342B1415C0008B8608 /* ContentView.swift in Sources */,
 				4DE98F252B1415AA008B8608 /* SimpleListNavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
